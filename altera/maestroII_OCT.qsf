@@ -1,0 +1,350 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2016  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel MegaCore Function License Agreement, or other 
+# applicable license agreement, including, without limitation, 
+# that your use is for the sole purpose of programming logic 
+# devices manufactured by Intel and sold by Intel or its 
+# authorized distributors.  Please refer to the applicable 
+# agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 16.1.0 Build 196 10/24/2016 SJ Lite Edition
+# Date created = 08:44:20  October 30, 2017
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		maestroII_OCT_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+
+# Project-Wide Assignments
+# ========================
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 16.1.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "15:59:00  JUNE 26, 2017"
+set_global_assignment -name LAST_QUARTUS_VERSION "16.1.0 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+
+# Pin & Location Assignments
+# ==========================
+set_location_assignment PIN_T5 -to A[10]
+set_location_assignment PIN_T4 -to A[9]
+set_location_assignment PIN_T3 -to A[8]
+set_location_assignment PIN_T2 -to A[7]
+set_location_assignment PIN_R10 -to A[6]
+set_location_assignment PIN_R9 -to A[5]
+set_location_assignment PIN_R8 -to A[4]
+set_location_assignment PIN_R7 -to A[3]
+set_location_assignment PIN_R6 -to A[2]
+set_location_assignment PIN_R5 -to A[1]
+set_location_assignment PIN_R4 -to A[0]
+set_location_assignment PIN_M3 -to CIBT3_Hsync
+set_location_assignment PIN_M2 -to CIBT3_Vsync
+set_location_assignment PIN_R3 -to D[15]
+set_location_assignment PIN_R2 -to D[14]
+set_location_assignment PIN_R1 -to D[13]
+set_location_assignment PIN_P9 -to D[12]
+set_location_assignment PIN_P8 -to D[11]
+set_location_assignment PIN_P6 -to D[10]
+set_location_assignment PIN_P5 -to D[9]
+set_location_assignment PIN_P4 -to D[8]
+set_location_assignment PIN_P2 -to D[7]
+set_location_assignment PIN_N5 -to D[6]
+set_location_assignment PIN_M9 -to D[5]
+set_location_assignment PIN_M8 -to D[4]
+set_location_assignment PIN_M7 -to D[3]
+set_location_assignment PIN_M6 -to D[2]
+set_location_assignment PIN_L8 -to D[1]
+set_location_assignment PIN_L7 -to D[0]
+set_location_assignment PIN_A6 -to DIP_SW[3]
+set_location_assignment PIN_A5 -to DIP_SW[2]
+set_location_assignment PIN_A4 -to DIP_SW[1]
+set_location_assignment PIN_A3 -to DIP_SW[0]
+set_location_assignment PIN_J6 -to GPIO0_IN
+set_location_assignment PIN_K2 -to GPIO1_IN
+set_location_assignment PIN_K5 -to GPIO2_IN
+set_location_assignment PIN_K6 -to GPIO3_IN
+set_location_assignment PIN_L1 -to RETRY_FLAG1
+set_location_assignment PIN_L2 -to RETRY_FLAG2
+set_location_assignment PIN_M1 -to LineCCD_Trig
+set_location_assignment PIN_A2 -to LineCCD_ONOFF
+set_location_assignment PIN_D9 -to FPGA_CLOCK
+set_location_assignment PIN_T9 -to FPGA_RESET
+set_location_assignment PIN_L9 -to nIRQ1_FPGA
+set_location_assignment PIN_L10 -to nIRQ2_FPGA
+set_location_assignment PIN_M10 -to nIRQ3_FPGA
+set_location_assignment PIN_M11 -to nIRQ4_FPGA
+set_location_assignment PIN_P10 -to nIRQ5_FPGA
+set_location_assignment PIN_P11 -to nIRQ6_FPGA
+set_location_assignment PIN_T7 -to nWRn3
+set_location_assignment PIN_T6 -to nRD_n2
+set_location_assignment PIN_T8 -to nCS1n
+set_location_assignment PIN_E10 -to Galv_GAIN_CLK
+set_location_assignment PIN_D12 -to Galv_GAIN_SDI
+set_location_assignment PIN_B13 -to Galv_OS_SCLK
+set_location_assignment PIN_F12 -to Galv_OS_DIN
+set_location_assignment PIN_C12 -to Galv_SCLK
+set_location_assignment PIN_C13 -to Galv_SDIN
+set_location_assignment PIN_H11 -to MOT_DIR
+set_location_assignment PIN_H12 -to MOT_PHA
+set_location_assignment PIN_G14 -to MOT_ENABLE
+set_location_assignment PIN_G12 -to MOT_PWMSW
+set_location_assignment PIN_F10 -to nGalvX_OS_CS
+set_location_assignment PIN_F11 -to nGalvY_OS_CS
+set_location_assignment PIN_A14 -to nGalvX_SYNC
+set_location_assignment PIN_A15 -to nGalvY_SYNC
+set_location_assignment PIN_L16 -to PER_N
+set_location_assignment PIN_M14 -to PER_P
+set_location_assignment PIN_L12 -to PER_REF_DIN
+set_location_assignment PIN_L11 -to PER_REF_SCLK
+set_location_assignment PIN_L15 -to nPER_RES_CS
+set_location_assignment PIN_R16 -to SLD_ACTIVE_PERIOD
+set_location_assignment PIN_M15 -to SLD_PULSE
+set_location_assignment PIN_L6 -to KEISEN_TXD
+set_location_assignment PIN_H5 -to PD_MONITOR
+set_location_assignment PIN_E11 -to nGalvX_GAIN_CS
+set_location_assignment PIN_N14 -to nSLD_LIMIT_CS
+set_location_assignment PIN_K14 -to nSLD_REF_CS
+set_location_assignment PIN_K12 -to SLD_REF_DIN
+set_location_assignment PIN_K11 -to SLD_REF_SCLK
+set_location_assignment PIN_P13 -to nIRQ8_FPGA
+set_location_assignment PIN_P12 -to nIRQ7_FPGA
+
+# Classic Timing Assignments
+# ==========================
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+
+# Analysis & Synthesis Assignments
+# ================================
+set_global_assignment -name FAMILY "MAX 10"
+set_global_assignment -name TOP_LEVEL_ENTITY oct_top_maestro
+set_global_assignment -name DEVICE_FILTER_PACKAGE FBGA
+set_global_assignment -name DEVICE_FILTER_PIN_COUNT 256
+set_global_assignment -name DEVICE_FILTER_SPEED_GRADE 8
+
+# Fitter Assignments
+# ==================
+set_global_assignment -name DEVICE 10M25DCF256C8G
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 256
+set_global_assignment -name STRATIXV_CONFIGURATION_SCHEME "PASSIVE SERIAL"
+set_global_assignment -name INTERNAL_FLASH_UPDATE_MODE "SINGLE COMP IMAGE"
+set_global_assignment -name CRC_ERROR_OPEN_DRAIN OFF
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVCMOS"
+
+# EDA Netlist Writer Assignments
+# ==============================
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (VHDL)"
+
+# Assembler Assignments
+# =====================
+set_global_assignment -name ENABLE_OCT_DONE OFF
+set_global_assignment -name EXTERNAL_FLASH_FALLBACK_ADDRESS 00000000
+set_global_assignment -name USE_CONFIGURATION_DEVICE OFF
+
+# SignalTap II Assignments
+# ========================
+set_global_assignment -name ENABLE_SIGNALTAP OFF
+set_global_assignment -name USE_SIGNALTAP_FILE stp1.stp
+
+# Power Estimation Assignments
+# ============================
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+
+# Advanced I/O Timing Assignments
+# ===============================
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -fall
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -fall
+
+# start EDA_TOOL_SETTINGS(eda_simulation)
+# ---------------------------------------
+
+	# EDA Netlist Writer Assignments
+	# ==============================
+	set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
+	set_global_assignment -name EDA_OUTPUT_DATA_FORMAT VHDL -section_id eda_simulation
+
+# end EDA_TOOL_SETTINGS(eda_simulation)
+# -------------------------------------
+
+# start AUTO_INSERT_SLD_NODE_ENTITY(auto_signaltap_0)
+# ---------------------------------------------------
+
+	# SignalTap II Assignments
+	# ========================
+
+# end AUTO_INSERT_SLD_NODE_ENTITY(auto_signaltap_0)
+# -------------------------------------------------
+
+# ---------------------
+# start ENTITY(oct_top)
+
+	# Fitter Assignments
+	# ==================
+
+	# start DESIGN_PARTITION(Top)
+	# ---------------------------
+
+		# Incremental Compilation Assignments
+		# ===================================
+
+	# end DESIGN_PARTITION(Top)
+	# -------------------------
+
+# end ENTITY(oct_top)
+# -------------------
+set_global_assignment -name EN_USER_IO_WEAK_PULLUP OFF
+set_global_assignment -name EN_SPI_IO_WEAK_PULLUP OFF
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_location_assignment PIN_B15 -to CP9
+set_location_assignment PIN_B16 -to nDRV8841_SLEEP
+set_location_assignment PIN_C14 -to REF_IN1
+set_location_assignment PIN_C15 -to REF_IN2
+set_location_assignment PIN_C16 -to POLA_IN1
+set_location_assignment PIN_D14 -to POLA_IN2
+set_location_assignment PIN_D15 -to nREF_POLA_FAULT
+set_location_assignment PIN_D16 -to REF_POLA_RESET
+set_location_assignment PIN_E14 -to OCTFOCUS_IN1
+set_location_assignment PIN_E15 -to OCTFOCUS_IN2
+set_location_assignment PIN_F16 -to nFOCUS_FAULT
+set_location_assignment PIN_G11 -to FOCUS_SLEEP
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to nWRn3 -entity OCT_TOP_MAESTRO
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to nSLD_REF_CS -entity OCT_TOP_MAESTRO
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to nSLD_LIMIT_CS -entity OCT_TOP_MAESTRO
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to nRD_n2 -entity OCT_TOP_MAESTRO
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to nPER_RES_CS -entity OCT_TOP_MAESTRO
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to nIRQ8_FPGA -entity OCT_TOP_MAESTRO
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to nIRQ7_FPGA -entity OCT_TOP_MAESTRO
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to nIRQ6_FPGA -entity OCT_TOP_MAESTRO
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to nIRQ5_FPGA -entity OCT_TOP_MAESTRO
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to nIRQ4_FPGA -entity OCT_TOP_MAESTRO
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to nIRQ3_FPGA -entity OCT_TOP_MAESTRO
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to nIRQ2_FPGA -entity OCT_TOP_MAESTRO
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to nIRQ1_FPGA -entity OCT_TOP_MAESTRO
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to nGalvY_SYNC -entity OCT_TOP_MAESTRO
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to nGalvY_OS_CS -entity OCT_TOP_MAESTRO
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to nGalvX_SYNC -entity OCT_TOP_MAESTRO
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to nGalvX_GAIN_CS -entity OCT_TOP_MAESTRO
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to nGalvX_OS_CS -entity OCT_TOP_MAESTRO
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to DIP_SW[0] -entity OCT_TOP_MAESTRO
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to FPGA_CLOCK -entity OCT_TOP_MAESTRO
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to FPGA_RESET -entity OCT_TOP_MAESTRO
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to Galv_GAIN_CLK -entity OCT_TOP_MAESTRO
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to Galv_GAIN_SDI -entity OCT_TOP_MAESTRO
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to Galv_OS_DIN -entity OCT_TOP_MAESTRO
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to Galv_OS_SCLK -entity OCT_TOP_MAESTRO
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to Galv_SCLK -entity OCT_TOP_MAESTRO
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to Galv_SDIN -entity OCT_TOP_MAESTRO
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to GPIO0_IN -entity OCT_TOP_MAESTRO
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to GPIO1_IN -entity OCT_TOP_MAESTRO
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to GPIO2_IN -entity OCT_TOP_MAESTRO
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to GPIO3_IN -entity OCT_TOP_MAESTRO
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to KEISEN_TXD -entity OCT_TOP_MAESTRO
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to LineCCD_ONOFF -entity OCT_TOP_MAESTRO
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to LineCCD_Trig -entity OCT_TOP_MAESTRO
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to MOT_DIR -entity OCT_TOP_MAESTRO
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to MOT_ENABLE -entity OCT_TOP_MAESTRO
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to MOT_PHA -entity OCT_TOP_MAESTRO
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to MOT_PWMSW -entity OCT_TOP_MAESTRO
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to nCS1n -entity OCT_TOP_MAESTRO
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to PD_MONITOR -entity OCT_TOP_MAESTRO
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to PER_N -entity OCT_TOP_MAESTRO
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to PER_P -entity OCT_TOP_MAESTRO
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to PER_REF_DIN -entity OCT_TOP_MAESTRO
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to PER_REF_SCLK -entity OCT_TOP_MAESTRO
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to RDnWR -entity OCT_TOP_MAESTRO
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to RETRY_FLAG1 -entity OCT_TOP_MAESTRO
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to RETRY_FLAG2 -entity OCT_TOP_MAESTRO
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to SLD_ACTIVE_PERIOD -entity OCT_TOP_MAESTRO
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to SLD_PULSE -entity OCT_TOP_MAESTRO
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to SLD_REF_DIN -entity OCT_TOP_MAESTRO
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to SLD_REF_SCLK -entity OCT_TOP_MAESTRO
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to PER_N -entity OCT_TOP_MAESTRO
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to PER_P -entity OCT_TOP_MAESTRO
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to nREF_POLA_FAULT -entity OCT_TOP_MAESTRO
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to nFOCUS_FAULT -entity OCT_TOP_MAESTRO
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to FOCUS_SLEEP -entity OCT_TOP_MAESTRO
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to nDRV8841_SLEEP -entity OCT_TOP_MAESTRO
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to OCTFOCUS_IN1 -entity OCT_TOP_MAESTRO
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to OCTFOCUS_IN2 -entity OCT_TOP_MAESTRO
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to POLA_IN1 -entity OCT_TOP_MAESTRO
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to POLA_IN2 -entity OCT_TOP_MAESTRO
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to REF_IN1 -entity OCT_TOP_MAESTRO
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to REF_IN2 -entity OCT_TOP_MAESTRO
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to REF_POLA_RESET -entity OCT_TOP_MAESTRO
+set_global_assignment -name VHDL_FILE ../src/comp_CustomScan.vhd
+set_global_assignment -name VHDL_FILE ../src/stepmotor_ctrl.vhd
+set_global_assignment -name VHDL_FILE ../src/encoder_cnt.vhd
+set_global_assignment -name VHDL_FILE ../src/comp_sync_gen.vhd
+set_global_assignment -name VHDL_FILE ../src/linesensor_err_det.vhd
+set_global_assignment -name VHDL_FILE ../src/oct_top_maestro.vhd
+set_global_assignment -name QIP_FILE test/synthesis/test.qip
+set_global_assignment -name VERILOG_FILE ../src/MAX10_REMOTE_UPDATE.v
+set_global_assignment -name QSYS_FILE ip/config_ram.qsys
+set_global_assignment -name VERILOG_FILE ../src/REG_FILE.v
+set_global_assignment -name VERILOG_FILE ../src/MAX10_FLASH_INTERFACE_RAM.v
+set_global_assignment -name QIP_FILE ../src/MAX10_FLASH_INTERFACE_RAM.qip
+set_global_assignment -name VERILOG_FILE ../src/MAX10_FLASH_INTERFACE.v
+set_global_assignment -name VERILOG_FILE ../src/FLASH_LOADER.v
+set_global_assignment -name SDC_FILE maestroII_OCT.sdc
+set_global_assignment -name VHDL_FILE ../src/spi_com.vhd
+set_global_assignment -name VHDL_FILE ../src/SLD_SMPL_TRG.vhd
+set_global_assignment -name VHDL_FILE ../src/SLD_EN_TRG.vhd
+set_global_assignment -name VHDL_FILE ../src/send_keisen.vhd
+set_global_assignment -name VHDL_FILE ../src/PWM_GEN_REF.vhd
+set_global_assignment -name VHDL_FILE ../src/PWM_GEN.vhd
+set_global_assignment -name VHDL_FILE ../src/oct_top.vhd
+set_global_assignment -name VHDL_FILE ../src/make_abs.vhd
+set_global_assignment -name VHDL_FILE ../src/H_W_Rev.vhd
+set_global_assignment -name VHDL_FILE ../src/GPIO.vhd
+set_global_assignment -name VHDL_FILE ../src/galv_dac_psc.vhd
+set_global_assignment -name VHDL_FILE ../src/GAL_OFFSET.vhd
+set_global_assignment -name VHDL_FILE ../src/GAL_GAIN.vhd
+set_global_assignment -name VHDL_FILE ../src/GAL_CON.vhd
+set_global_assignment -name VHDL_FILE ../src/FPGA_CNT_GEN.vhd
+set_global_assignment -name VHDL_FILE ../src/comp_TRIG_SEL.vhd
+set_global_assignment -name VHDL_FILE ../src/comp_SLD_gen.vhd
+set_global_assignment -name VHDL_FILE ../src/comp_sin_cos_xy.vhd
+set_global_assignment -name VHDL_FILE ../src/comp_move_pos.vhd
+set_global_assignment -name VHDL_FILE ../src/comp_CustomSacan.vhd
+set_global_assignment -name QIP_FILE alt_divide_16_9.qip
+set_global_assignment -name QIP_FILE alt_divide_25_13.qip
+set_global_assignment -name QIP_FILE alt_dp_ram_2bit1024W_01.qip
+set_global_assignment -name QIP_FILE alt_dp_ram_12bit256W_01.qip
+set_global_assignment -name QIP_FILE alt_dp_ram_12bit1024W_01.qip
+set_global_assignment -name QIP_FILE alt_dp_ram_12bit1024W_end_01.qip
+set_global_assignment -name QIP_FILE alt_dp_ram_12bit1024W_start_01.qip
+set_global_assignment -name QIP_FILE alt_dp_ram_bscan.qip
+set_global_assignment -name QIP_FILE alt_mult_12x12.qip
+set_global_assignment -name QIP_FILE mul_16x12.qip
+set_global_assignment -name CDF_FILE Chain1.cdf
+set_global_assignment -name CDF_FILE output_files/Chain1.cdf
+set_global_assignment -name CDF_FILE output_files/Chain2.cdf
+set_global_assignment -name SIGNALTAP_FILE stp1.stp
+set_global_assignment -name SOURCE_FILE db/maestroII_OCT.cmp.rdb
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

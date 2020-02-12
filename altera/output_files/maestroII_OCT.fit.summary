@@ -1,0 +1,18 @@
+Fitter Status : Successful - Fri Sep 20 18:49:09 2019
+Quartus Prime Version : 16.1.0 Build 196 10/24/2016 SJ Lite Edition
+Revision Name : maestroII_OCT
+Top-level Entity Name : OCT_TOP_MAESTRO
+Family : MAX 10
+Device : 10M25DCF256C8G
+Timing Models : Final
+Total logic elements : 12,139 / 24,960 ( 49 % )
+    Total combinational functions : 10,825 / 24,960 ( 43 % )
+    Dedicated logic registers : 7,675 / 24,960 ( 31 % )
+Total registers : 7675
+Total pins : 95 / 178 ( 53 % )
+Total virtual pins : 0
+Total memory bits : 349,504 / 691,200 ( 51 % )
+Embedded Multiplier 9-bit elements : 6 / 110 ( 5 % )
+Total PLLs : 0 / 4 ( 0 % )
+UFM blocks : 1 / 1 ( 100 % )
+ADC blocks : 0

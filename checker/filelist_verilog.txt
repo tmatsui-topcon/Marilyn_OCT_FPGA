@@ -1,0 +1,10 @@
+../src/FLASH_LOADER.v
+../src/MAX10_FLASH_INTERFACE.v
+../src/MAX10_FLASH_INTERFACE_RAM.v
+../src/MAX10_REMOTE_UPDATE.v
+../src/REG_FILE.v
+
+
+### ALTERA MACRO
+../altera\ip\config_ram\simulation/config_ram.v
+

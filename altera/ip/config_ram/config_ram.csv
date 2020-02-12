@@ -1,0 +1,21 @@
+# system info config_ram on 2017.10.30.08:53:25
+system_info:
+name,value
+DEVICE,10M25DCF256C8G
+DEVICE_FAMILY,MAX 10
+GENERATION_ID,1509321204
+#
+#
+# Files generated for config_ram on 2017.10.30.08:53:25
+files:
+filepath,kind,attributes,module,is_top
+simulation/config_ram.v,VERILOG,,config_ram,true
+simulation/submodules/altera_onchip_flash_util.v,VERILOG,,altera_onchip_flash,false
+simulation/submodules/altera_onchip_flash.v,VERILOG,,altera_onchip_flash,false
+simulation/submodules/altera_onchip_flash_avmm_data_controller.v,VERILOG,,altera_onchip_flash,false
+simulation/submodules/altera_onchip_flash_avmm_csr_controller.v,VERILOG,,altera_onchip_flash,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+config_ram.onchip_flash_0,altera_onchip_flash

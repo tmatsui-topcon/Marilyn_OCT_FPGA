@@ -1,0 +1,150 @@
+Flow report for maestroII_OCT
+Fri Sep 20 18:49:28 2019
+Quartus Prime Version 16.1.0 Build 196 10/24/2016 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2016  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Intel and sold by Intel or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++----------------------------------------------------------------------------------+
+; Flow Summary                                                                     ;
++------------------------------------+---------------------------------------------+
+; Flow Status                        ; Successful - Fri Sep 20 18:49:28 2019       ;
+; Quartus Prime Version              ; 16.1.0 Build 196 10/24/2016 SJ Lite Edition ;
+; Revision Name                      ; maestroII_OCT                               ;
+; Top-level Entity Name              ; OCT_TOP_MAESTRO                             ;
+; Family                             ; MAX 10                                      ;
+; Device                             ; 10M25DCF256C8G                              ;
+; Timing Models                      ; Final                                       ;
+; Total logic elements               ; 12,139 / 24,960 ( 49 % )                    ;
+;     Total combinational functions  ; 10,825 / 24,960 ( 43 % )                    ;
+;     Dedicated logic registers      ; 7,675 / 24,960 ( 31 % )                     ;
+; Total registers                    ; 7675                                        ;
+; Total pins                         ; 95 / 178 ( 53 % )                           ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 349,504 / 691,200 ( 51 % )                  ;
+; Embedded Multiplier 9-bit elements ; 6 / 110 ( 5 % )                             ;
+; Total PLLs                         ; 0 / 4 ( 0 % )                               ;
+; UFM blocks                         ; 1 / 1 ( 100 % )                             ;
+; ADC blocks                         ; 0                                           ;
++------------------------------------+---------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 09/20/2019 18:47:32 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; maestroII_OCT       ;
++-------------------+---------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                ;
++-------------------------------------+----------------------------------------+---------------+-----------------+----------------+
+; Assignment Name                     ; Value                                  ; Default Value ; Entity Name     ; Section Id     ;
++-------------------------------------+----------------------------------------+---------------+-----------------+----------------+
+; COMPILER_SIGNATURE_ID               ; 251485282001382.156897285227104        ; --            ; --              ; --             ;
+; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                                   ; --            ; --              ; eda_simulation ;
+; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)                 ; <None>        ; --              ; --             ;
+; EDA_TIME_SCALE                      ; 1 ps                                   ; --            ; --              ; eda_simulation ;
+; ENABLE_SIGNALTAP                    ; Off                                    ; --            ; --              ; --             ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --              ; --             ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --              ; --             ;
+; MISC_FILE                           ; alt_divide_16_9.cmp                    ; --            ; --              ; --             ;
+; MISC_FILE                           ; alt_divide_25_13.cmp                   ; --            ; --              ; --             ;
+; MISC_FILE                           ; alt_dp_ram_2bit1024W_01.cmp            ; --            ; --              ; --             ;
+; MISC_FILE                           ; alt_dp_ram_12bit256W_01.cmp            ; --            ; --              ; --             ;
+; MISC_FILE                           ; alt_dp_ram_12bit1024W_01.cmp           ; --            ; --              ; --             ;
+; MISC_FILE                           ; alt_dp_ram_12bit1024W_end_01.cmp       ; --            ; --              ; --             ;
+; MISC_FILE                           ; alt_dp_ram_12bit1024W_start_01.cmp     ; --            ; --              ; --             ;
+; MISC_FILE                           ; alt_dp_ram_bscan.cmp                   ; --            ; --              ; --             ;
+; MISC_FILE                           ; alt_mult_12x12.cmp                     ; --            ; --              ; --             ;
+; MISC_FILE                           ; mul_16x12.cmp                          ; --            ; --              ; --             ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS      ; Half Signal Swing                      ; --            ; --              ; --             ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS      ; Half Signal Swing                      ; --            ; --              ; --             ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS     ; Half Vccio                             ; --            ; --              ; --             ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS     ; Half Vccio                             ; --            ; --              ; --             ;
+; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; oct_top_maestro ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; oct_top_maestro ; Top            ;
+; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; oct_top_maestro ; Top            ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                    ; --            ; --              ; --             ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --            ; --              ; --             ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --            ; --              ; --             ;
+; TOP_LEVEL_ENTITY                    ; oct_top_maestro                        ; maestroII_OCT ; --              ; --             ;
+; USE_SIGNALTAP_FILE                  ; stp1.stp                               ; --            ; --              ; --             ;
++-------------------------------------+----------------------------------------+---------------+-----------------+----------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:00:42     ; 1.0                     ; 5018 MB             ; 00:01:01                           ;
+; Fitter                    ; 00:00:52     ; 1.6                     ; 6034 MB             ; 00:01:58                           ;
+; Assembler                 ; 00:00:03     ; 1.0                     ; 4753 MB             ; 00:00:02                           ;
+; TimeQuest Timing Analyzer ; 00:00:08     ; 2.7                     ; 4975 MB             ; 00:00:19                           ;
+; EDA Netlist Writer        ; 00:00:03     ; 1.0                     ; 4806 MB             ; 00:00:03                           ;
+; Total                     ; 00:01:48     ; --                      ; --                  ; 00:03:23                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++-----------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                         ;
++---------------------------+------------------+------------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++---------------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis      ; PCD51600         ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter                    ; PCD51600         ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler                 ; PCD51600         ; Windows 10 ; 10.0       ; x86_64         ;
+; TimeQuest Timing Analyzer ; PCD51600         ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer        ; PCD51600         ; Windows 10 ; 10.0       ; x86_64         ;
++---------------------------+------------------+------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off maestroII_OCT -c maestroII_OCT
+quartus_fit --read_settings_files=off --write_settings_files=off maestroII_OCT -c maestroII_OCT
+quartus_asm --read_settings_files=off --write_settings_files=off maestroII_OCT -c maestroII_OCT
+quartus_sta maestroII_OCT -c maestroII_OCT
+quartus_eda --read_settings_files=off --write_settings_files=off maestroII_OCT -c maestroII_OCT
+
+
+

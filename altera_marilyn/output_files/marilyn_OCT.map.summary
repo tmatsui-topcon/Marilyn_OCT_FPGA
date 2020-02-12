@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Fri Jan 24 09:27:48 2020
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : marilyn_OCT
+Top-level Entity Name : OCT_TOP_MARILYN
+Family : MAX 10
+Total logic elements : 14,283
+    Total combinational functions : 10,746
+    Dedicated logic registers : 7,674
+Total registers : 7674
+Total pins : 96
+Total virtual pins : 0
+Total memory bits : 349,504
+Embedded Multiplier 9-bit elements : 6
+Total PLLs : 0
+UFM blocks : 1
+ADC blocks : 0

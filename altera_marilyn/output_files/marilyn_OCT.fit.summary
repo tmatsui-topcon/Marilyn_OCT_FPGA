@@ -1,0 +1,18 @@
+Fitter Status : Successful - Fri Jan 24 09:28:41 2020
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : marilyn_OCT
+Top-level Entity Name : OCT_TOP_MARILYN
+Family : MAX 10
+Device : 10M25DCF256C8G
+Timing Models : Final
+Total logic elements : 12,039 / 24,960 ( 48 % )
+    Total combinational functions : 10,750 / 24,960 ( 43 % )
+    Dedicated logic registers : 7,652 / 24,960 ( 31 % )
+Total registers : 7652
+Total pins : 96 / 178 ( 54 % )
+Total virtual pins : 0
+Total memory bits : 349,504 / 691,200 ( 51 % )
+Embedded Multiplier 9-bit elements : 6 / 110 ( 5 % )
+Total PLLs : 0 / 4 ( 0 % )
+UFM blocks : 1 / 1 ( 100 % )
+ADC blocks : 0

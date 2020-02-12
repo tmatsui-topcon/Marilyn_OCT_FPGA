@@ -1,0 +1,65 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'fpga_clock'
+Slack : 1.858
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'fpga_clock'
+Slack : 0.292
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'fpga_clock'
+Slack : 22.966
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'fpga_clock'
+Slack : 1.334
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'fpga_clock'
+Slack : 14.879
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'fpga_clock'
+Slack : 2.202
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'fpga_clock'
+Slack : 0.269
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'fpga_clock'
+Slack : 23.555
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'fpga_clock'
+Slack : 1.172
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'fpga_clock'
+Slack : 14.909
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'fpga_clock'
+Slack : 5.088
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'fpga_clock'
+Slack : 0.089
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'fpga_clock'
+Slack : 26.705
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'fpga_clock'
+Slack : 0.560
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'fpga_clock'
+Slack : 14.515
+TNS   : 0.000
+
+------------------------------------------------------------

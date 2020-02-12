@@ -1,0 +1,12 @@
+/testbench/sim_live_cap_live.v
+/testbench/step_motor_daikei.v
+/testbench/step_motor_sankaku.v
+/testbench/enc_cnt_AB_test.v
+/testbench/enc_cnt_BA_test.v
+/testbench/enc_cnt_AB_ng_test.v
+/testbench/LCMOS_MisTrigger_ok.v
+/testbench/LCMOS_MisTrigger_ng_ninus1.v
+/testbench/LCMOS_MisTrigger_ng_pluse1.v
+/testbench/step_motor_1_2phase.v
+/testbench/step_motor_2_2phase.v
+
